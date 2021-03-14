@@ -12,6 +12,15 @@ Support is probably going to be closer to an offshoot like datalog.
 * [SQLAlchemy](https://www.sqlalchemy.org/) also using Python.
 * A relational database; SQLite will suffice.
 
+I highly recommend using [VirtualEnv](https://pypi.org/project/virtualenv/) for
+managing requirements in a sandbox environment.
+
+## Running
+
+Activate the virtualenv, if any.
+
+Run `python prolog2sql.py <some pl file>`.
+
 ## How does it work?
 
 ### Syntax and Parsimonious
